@@ -1,0 +1,588 @@
+{
+  "business": {
+    "name": "J. DeMiguel And Sons Plumbing & Heating",
+    "phone": "+16022953476",
+    "category": "plumbing company",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-red-charge",
+      "categoryGroup": "roofing",
+      "name": "Red Charge",
+      "recipeFile": "roofing/red-charge.astro",
+      "colors": {
+        "primary": "#1F3A56",
+        "primaryDark": "#152B42",
+        "primaryLight": "#D0DCE8",
+        "secondary": "#2B4C6F",
+        "accent": "#DC143C",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1F3A56",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Phoenix Plumbing Pros",
+      "heroSubline": "Reliable plumbing and heating solutions for Phoenix homes and businesses. Decades of experience tackling Arizona's toughest plumbing challenges.",
+      "aboutTitle": "Decades of Phoenix Plumbing Expertise",
+      "aboutText": [
+        "J. DeMiguel and Sons Plumbing & Heating isn't just another plumbing company; we're a Phoenix institution. For over a decade, we've been keeping the water flowing and the heat working across the Valley. Our family started this business with a simple goal: provide dependable, honest service to our neighbors.",
+        "We approach every job, big or small, with the same commitment to quality and integrity. We don't cut corners, and we stand behind our work. Our team uses the best materials and proven techniques to ensure long-lasting solutions that withstand the Arizona climate.",
+        "Phoenix is our home, and we're dedicated to giving back. We actively support local community initiatives and strive to be a responsible and environmentally conscious business. When you choose J. DeMiguel and Sons, you're choosing a company that cares about our city."
+      ],
+      "valueProps": [
+        {
+          "title": "24/7 Emergency Service",
+          "description": "Plumbing emergencies don't wait, and neither do we. We're available around the clock to handle any urgent situation."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "No hidden fees or surprises. We provide clear, detailed estimates before any work begins."
+        },
+        {
+          "title": "Licensed & Insured",
+          "description": "Protecting your property and peace of mind. We are fully licensed and insured for your protection."
+        },
+        {
+          "title": "Experienced Technicians",
+          "description": "Our team of skilled plumbers has the knowledge and expertise to handle any plumbing or heating issue."
+        }
+      ],
+      "ctaHeadline": "Solve Your Plumbing Problems Now",
+      "ctaSubline": "Get a free quote and experience the J. DeMiguel and Sons difference. Call us today!"
+    },
+    "services": [
+      {
+        "slug": "leak-detection-repair",
+        "name": "Leak Detection & Repair",
+        "shortDescription": "Expert leak detection and repair services to prevent water damage and save you money.",
+        "description": "Water leaks can cause significant damage to your Phoenix home, especially with the intense summer heat accelerating mold growth and weakening foundations. Our experienced technicians use advanced equipment to pinpoint the source of leaks, even hidden ones behind walls or under slabs. We handle everything from minor dripping faucets to major pipe bursts, providing efficient and reliable repairs to prevent further damage. \n\nWe understand the unique challenges of plumbing in Phoenix, from aging copper pipes to the effects of hard water. We offer a range of repair options, including pipe replacement, epoxy lining, and joint sealing, tailored to your specific needs and budget. Don't let a small leak turn into a costly disaster. Call J. DeMiguel and Sons for prompt and professional leak detection and repair services.",
+        "process": [
+          "Step 1: Thorough inspection to identify the source of the leak.",
+          "Step 2: Accurate diagnosis and detailed explanation of the problem.",
+          "Step 3: Efficient and effective repair using quality materials.",
+          "Step 4: Post-repair inspection to ensure the leak is completely resolved."
+        ],
+        "benefits": [
+          "Prevent water damage and mold growth",
+          "Reduce water bills",
+          "Protect your home's foundation",
+          "Ensure a healthy living environment"
+        ],
+        "faq": [
+          {
+            "question": "How can I tell if I have a hidden leak?",
+            "answer": "Signs of a hidden leak include unexplained increases in your water bill, damp spots on walls or ceilings, and the sound of running water when no fixtures are in use. Call us for a professional inspection."
+          },
+          {
+            "question": "What's the best way to repair a leaky pipe?",
+            "answer": "The best repair method depends on the location and severity of the leak. We offer various options, including pipe replacement, epoxy lining, and joint sealing."
+          },
+          {
+            "question": "How much does leak detection cost?",
+            "answer": "The cost of leak detection depends on the complexity of the job. We offer free estimates, so give us a call, and we'll provide a transparent quote."
+          }
+        ]
+      },
+      {
+        "slug": "water-heater-services",
+        "name": "Water Heater Services",
+        "shortDescription": "Reliable water heater repair, replacement, and maintenance for Phoenix homes.",
+        "description": "A functioning water heater is essential for comfortable living in Phoenix, especially during the cooler months. We provide comprehensive water heater services, including repair, replacement, and maintenance. Whether you have a traditional tank water heater or a modern tankless system, our technicians have the expertise to keep it running efficiently. \n\nWe understand the challenges of water heaters in Phoenix's hard water environment, which can lead to sediment buildup and reduced efficiency. We offer regular maintenance services, such as flushing and anode rod replacement, to extend the life of your water heater and prevent costly repairs. If your water heater is beyond repair, we can help you choose the right replacement model for your needs and budget, ensuring proper installation and optimal performance.",
+        "process": [
+          "Step 1: Diagnose the problem and provide a detailed explanation.",
+          "Step 2: Recommend the best solution based on your needs and budget.",
+          "Step 3: Perform the repair or replacement efficiently and professionally.",
+          "Step 4: Test the system to ensure proper operation."
+        ],
+        "benefits": [
+          "Hot water when you need it",
+          "Energy-efficient operation",
+          "Extended water heater lifespan",
+          "Peace of mind knowing your system is in good hands"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my water heater serviced?",
+            "answer": "We recommend having your water heater serviced annually to prevent sediment buildup and ensure optimal performance."
+          },
+          {
+            "question": "How long does a water heater typically last in Phoenix?",
+            "answer": "With proper maintenance, a water heater in Phoenix can last 8-12 years."
+          },
+          {
+            "question": "What are the signs that my water heater needs to be replaced?",
+            "answer": "Signs of a failing water heater include rusty water, strange noises, and leaks."
+          }
+        ]
+      },
+      {
+        "slug": "drain-cleaning-services",
+        "name": "Drain Cleaning Services",
+        "shortDescription": "Fast and effective drain cleaning services to clear clogged drains and restore proper flow.",
+        "description": "Clogged drains are a common nuisance in Phoenix homes, often caused by hair, grease, and mineral buildup. Our drain cleaning services utilize advanced techniques and equipment to clear even the toughest clogs, restoring proper flow and preventing backups. We offer a range of services, including snaking, hydro jetting, and video inspection, to identify and resolve the root cause of the problem. \n\nWe understand the challenges of older plumbing systems in Phoenix neighborhoods like Arcadia, where aging pipes can be prone to clogs. Our experienced technicians can assess the condition of your pipes and recommend solutions to prevent future problems. Don't let a clogged drain disrupt your daily routine. Call J. DeMiguel and Sons for prompt and professional drain cleaning services.",
+        "process": [
+          "Step 1: Assess the clog to determine the best cleaning method.",
+          "Step 2: Clear the clog using appropriate tools and techniques.",
+          "Step 3: Inspect the drain to ensure proper flow.",
+          "Step 4: Provide recommendations to prevent future clogs."
+        ],
+        "benefits": [
+          "Fast and effective clog removal",
+          "Restored drain flow",
+          "Prevention of backups and water damage",
+          "Improved plumbing system performance"
+        ],
+        "faq": [
+          {
+            "question": "What causes clogged drains?",
+            "answer": "Clogged drains are often caused by hair, grease, food scraps, and mineral buildup."
+          },
+          {
+            "question": "Is it safe to use chemical drain cleaners?",
+            "answer": "Chemical drain cleaners can damage your pipes and are not recommended. We offer safer and more effective alternatives."
+          },
+          {
+            "question": "How can I prevent clogged drains?",
+            "answer": "Prevent clogged drains by avoiding pouring grease down the drain, using drain screens, and flushing your drains regularly with hot water."
+          }
+        ]
+      },
+      {
+        "slug": "plumbing-repairs",
+        "name": "General Plumbing Repairs",
+        "shortDescription": "Comprehensive plumbing repair services for all your plumbing needs in Phoenix.",
+        "description": "From leaky faucets to running toilets, we handle all types of general plumbing repairs in Phoenix homes and businesses. Our experienced technicians are equipped to diagnose and fix any plumbing issue, big or small. We use quality materials and proven techniques to ensure long-lasting repairs that withstand the Arizona climate. \n\nWe understand the unique challenges of plumbing in older Phoenix homes, where aging pipes and fixtures can be prone to problems. We offer a wide range of repair services, including pipe repair and replacement, fixture installation, and toilet repair. Don't let plumbing problems disrupt your daily life. Contact J. DeMiguel and Sons for reliable and affordable plumbing repair services.",
+        "process": [
+          "Step 1: Thorough inspection to identify the cause of the problem.",
+          "Step 2: Provide a detailed explanation of the repair options.",
+          "Step 3: Perform the repair efficiently and professionally.",
+          "Step 4: Test the system to ensure proper operation."
+        ],
+        "benefits": [
+          "Reliable and long-lasting repairs",
+          "Prevention of water damage and further problems",
+          "Improved plumbing system performance",
+          "Peace of mind knowing your plumbing is in good hands"
+        ],
+        "faq": [
+          {
+            "question": "How much does a plumbing repair cost?",
+            "answer": "The cost of a plumbing repair depends on the nature and complexity of the problem. We offer free estimates, so give us a call for a transparent quote."
+          },
+          {
+            "question": "How quickly can you respond to a plumbing emergency?",
+            "answer": "We offer 24/7 emergency plumbing services and strive to respond as quickly as possible to urgent situations."
+          },
+          {
+            "question": "Do you offer warranties on your plumbing repairs?",
+            "answer": "Yes, we stand behind our work and offer warranties on all our plumbing repairs."
+          }
+        ]
+      },
+      {
+        "slug": "pipe-replacement",
+        "name": "Pipe Replacement & Repiping",
+        "shortDescription": "Expert pipe replacement services to upgrade aging or damaged plumbing systems.",
+        "description": "Aging or damaged pipes can lead to leaks, reduced water pressure, and even water contamination. Our pipe replacement services offer a reliable solution to upgrade your plumbing system and ensure clean, safe water for your family. We use high-quality materials, such as PEX and copper, and employ proven techniques to minimize disruption and ensure a long-lasting solution. \n\nWe understand the challenges of repiping older Phoenix homes, particularly those built with outdated materials. Our experienced technicians can assess the condition of your pipes and recommend the best repiping solution for your needs and budget. We handle everything from partial pipe replacements to whole-house repiping, ensuring a seamless and efficient process. Protect your home and family with our professional pipe replacement services.",
+        "process": [
+          "Step 1: Thorough inspection to assess the condition of your pipes.",
+          "Step 2: Recommend the best repiping solution based on your needs.",
+          "Step 3: Perform the pipe replacement efficiently and professionally.",
+          "Step 4: Test the system to ensure proper operation and water quality."
+        ],
+        "benefits": [
+          "Improved water quality",
+          "Increased water pressure",
+          "Prevention of leaks and water damage",
+          "Extended plumbing system lifespan"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if I need to repipe my home?",
+            "answer": "Signs that you may need to repipe your home include rusty water, low water pressure, frequent leaks, and aging pipes."
+          },
+          {
+            "question": "What materials do you use for repiping?",
+            "answer": "We use high-quality materials, such as PEX and copper, for repiping. We can recommend the best material for your specific needs."
+          },
+          {
+            "question": "How long does repiping take?",
+            "answer": "The duration of repiping depends on the size and complexity of the job. We will provide you with a detailed timeline before we begin."
+          }
+        ]
+      },
+      {
+        "slug": "fixture-installation",
+        "name": "Fixture Installation",
+        "shortDescription": "Professional installation of faucets, sinks, toilets, showers, and other plumbing fixtures.",
+        "description": "Upgrading your plumbing fixtures can enhance the look and functionality of your Phoenix home. We offer professional fixture installation services for faucets, sinks, toilets, showers, and other plumbing fixtures. Our experienced technicians ensure proper installation and leak-free connections, providing you with years of reliable performance. \n\nWe understand the importance of choosing the right fixtures for your needs and style. We can help you select the best options from leading brands and provide expert installation services to ensure a perfect fit. Whether you're remodeling your bathroom or simply replacing an old fixture, we're here to help. Contact J. DeMiguel and Sons for professional fixture installation services.",
+        "process": [
+          "Step 1: Remove the old fixture and prepare the area for installation.",
+          "Step 2: Install the new fixture according to manufacturer specifications.",
+          "Step 3: Connect the water supply and drain lines.",
+          "Step 4: Test the fixture to ensure proper operation and leak-free connections."
+        ],
+        "benefits": [
+          "Enhanced home aesthetics",
+          "Improved functionality",
+          "Leak-free connections",
+          "Professional installation"
+        ],
+        "faq": [
+          {
+            "question": "Do you offer fixture selection assistance?",
+            "answer": "Yes, we can help you choose the right fixtures for your needs and style."
+          },
+          {
+            "question": "Do you remove the old fixtures?",
+            "answer": "Yes, we will remove and dispose of your old fixtures properly."
+          },
+          {
+            "question": "Do you offer warranties on your fixture installations?",
+            "answer": "Yes, we offer warranties on our fixture installations."
+          }
+        ]
+      },
+      {
+        "slug": "gas-line-services",
+        "name": "Gas Line Services",
+        "shortDescription": "Safe and reliable gas line installation, repair, and maintenance services.",
+        "description": "Working with gas lines requires specialized expertise and a commitment to safety. We offer comprehensive gas line services, including installation, repair, and maintenance, ensuring the safe and reliable operation of your gas appliances. Our licensed and experienced technicians adhere to strict safety protocols and use specialized equipment to detect and repair gas leaks. \n\nWe understand the importance of gas line safety in Phoenix homes, especially during monsoon season. Our gas line services include leak detection, pipe repair and replacement, and appliance connections. Protect your home and family with our professional gas line services. Call J. DeMiguel and Sons for peace of mind.",
+        "process": [
+          "Step 1: Conduct a thorough inspection of the gas line system.",
+          "Step 2: Identify any leaks or potential problems.",
+          "Step 3: Perform the necessary repairs or installations safely and efficiently.",
+          "Step 4: Test the system to ensure proper operation and leak-free connections."
+        ],
+        "benefits": [
+          "Safe and reliable gas line operation",
+          "Prevention of gas leaks and hazards",
+          "Proper appliance connections",
+          "Peace of mind knowing your gas system is in good hands"
+        ],
+        "faq": [
+          {
+            "question": "How can I tell if I have a gas leak?",
+            "answer": "Signs of a gas leak include a rotten egg smell, hissing sounds near gas lines, and dead vegetation near gas lines. Evacuate the area immediately and call us."
+          },
+          {
+            "question": "What should I do if I suspect a gas leak?",
+            "answer": "If you suspect a gas leak, evacuate the area immediately and call us or the gas company from a safe location."
+          },
+          {
+            "question": "Do you offer gas line inspections?",
+            "answer": "Yes, we offer gas line inspections to ensure the safe and reliable operation of your gas system."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Scottsdale",
+        "slug": "scottsdale-az",
+        "state": "AZ",
+        "content": "J. DeMiguel And Sons Plumbing & Heating is proud to offer our full range of plumbing and HVAC services to Scottsdale, Arizona. Known for its luxury Southwestern estates and upscale living, Scottsdale homes require expert care to maintain their value and comfort. We understand the unique needs of Scottsdale residents, from ensuring efficient air conditioning during the extreme summer heat that often exceeds 110°F to providing prompt repairs for plumbing systems in high-end properties.\n\nOur team is experienced in working with a variety of home styles prevalent in Scottsdale, including those with complex irrigation systems, advanced water features, and high-efficiency HVAC units. We are committed to providing reliable, professional, and courteous service to every customer in Scottsdale, ensuring your plumbing and HVAC systems operate flawlessly year-round. Whether it's routine maintenance, emergency repairs, or new installations, J. DeMiguel And Sons is your trusted partner in Scottsdale.\n\nWe offer comprehensive plumbing services including leak detection, water heater repair, drain cleaning, and sewer line services. Our HVAC technicians are adept at AC repair, maintenance, and installation. We ensure that your home stays comfortable no matter the season.",
+        "localContext": "Scottsdale is known for its luxury Southwestern estates and experiences extreme summer heat, often exceeding 110°F, demanding reliable cooling systems.",
+        "nearbyAreas": [
+          "Phoenix",
+          "Paradise Valley",
+          "Tempe"
+        ]
+      },
+      {
+        "city": "Mesa",
+        "slug": "mesa-az",
+        "state": "AZ",
+        "content": "J. DeMiguel And Sons Plumbing & Heating is a trusted provider of plumbing and HVAC services in Mesa, Arizona. With many homes in Mesa built in the 1970s and 1980s featuring stucco exteriors, we understand the common plumbing and HVAC challenges faced by homeowners in this area. Our experienced technicians are equipped to handle repairs, replacements, and upgrades to ensure your home remains comfortable and functional, even during the extreme summer heat that exceeds 110°F.\n\nWe are familiar with the specific plumbing and HVAC systems commonly found in older Mesa homes, including galvanized pipes, aging air conditioning units, and inefficient water heaters. Our team provides expert solutions to address these issues, helping you improve energy efficiency, reduce water waste, and prevent costly repairs down the line. Whether you need a new AC installation, a water heater replacement, or a simple plumbing repair, J. DeMiguel And Sons is here to serve you.\n\nOur plumbing services include drain cleaning, leak repair, water heater services, and sewer line inspections. We also offer HVAC services, including AC repair, maintenance, and installation.",
+        "localContext": "Mesa features many homes built in the 1970s and 1980s with stucco exteriors and experiences extreme summer heat, often exceeding 110°F.",
+        "nearbyAreas": [
+          "Tempe",
+          "Gilbert",
+          "Chandler"
+        ]
+      },
+      {
+        "city": "Chandler",
+        "slug": "chandler-az",
+        "state": "AZ",
+        "content": "J. DeMiguel And Sons Plumbing & Heating proudly serves the Chandler, Arizona community with dependable plumbing and HVAC solutions. Known for its many planned developments constructed in the 1990s and 2000s, Chandler homes often have unique plumbing and HVAC configurations that require specialized knowledge. Our team is well-versed in the systems commonly found in these homes, ensuring we can provide efficient and effective service.\n\nWe understand the importance of maintaining a comfortable home environment in Chandler, especially during the extreme summer heat that often exceeds 110°F. Whether you need routine maintenance on your air conditioning system, a quick plumbing repair, or a complete HVAC system replacement, J. DeMiguel And Sons is here to help. We are committed to providing prompt, reliable, and professional service to every customer in Chandler.\n\nOur services include leak detection and repair, drain cleaning, water heater installation and repair, and comprehensive HVAC services, including AC repair, maintenance, and installation.",
+        "localContext": "Chandler is known for its planned developments built in the 1990s and 2000s and experiences extreme summer heat, often exceeding 110°F.",
+        "nearbyAreas": [
+          "Gilbert",
+          "Mesa",
+          "Tempe"
+        ]
+      },
+      {
+        "city": "Gilbert",
+        "slug": "gilbert-az",
+        "state": "AZ",
+        "content": "J. DeMiguel And Sons Plumbing & Heating is dedicated to providing top-notch plumbing and HVAC services to the growing community of Gilbert, Arizona. With its newer construction homes from the 2000s to 2020s, Gilbert properties often feature modern plumbing and HVAC systems. Our team is experienced in working with these advanced technologies, ensuring we can provide efficient and effective solutions for all your plumbing and HVAC needs.\n\nWe understand the importance of maintaining a comfortable home environment in Gilbert, especially during the extreme summer heat that often exceeds 110°F. Whether you need a smart thermostat installed, a high-efficiency AC unit serviced, or a plumbing inspection for your new home, J. DeMiguel And Sons is here to help. We are committed to providing reliable, professional, and courteous service to every customer in Gilbert.\n\nWe offer a comprehensive range of plumbing services including leak detection, drain cleaning, water heater repair, and sewer line services. Our HVAC services cover AC repair, maintenance, and installation.",
+        "localContext": "Gilbert features newer construction homes from the 2000s to 2020s and experiences extreme summer heat, often exceeding 110°F.",
+        "nearbyAreas": [
+          "Chandler",
+          "Mesa",
+          "Queen Creek"
+        ]
+      },
+      {
+        "city": "Tempe",
+        "slug": "tempe-az",
+        "state": "AZ",
+        "content": "J. DeMiguel And Sons Plumbing & Heating is pleased to offer comprehensive plumbing and HVAC services to the vibrant community of Tempe, Arizona. With its mix of older and newer homes, particularly around the Arizona State University (ASU) area, Tempe presents unique plumbing and HVAC challenges. Our team is experienced in working with a variety of home styles and system types, ensuring we can provide tailored solutions to meet your specific needs.\n\nWe understand the importance of maintaining a comfortable and functional home, especially during the extreme summer heat that often exceeds 110°F. From repairing leaky pipes in older homes to installing energy-efficient AC units in newer constructions, J. DeMiguel And Sons is committed to providing reliable and professional service to every customer in Tempe. We are familiar with the demands of student housing and residential properties alike.\n\nOur services include drain cleaning, water heater repair and replacement, leak detection, and comprehensive HVAC services, including AC repair, maintenance, and installation.",
+        "localContext": "Tempe features a mix of older and newer homes, especially around ASU, and experiences extreme summer heat, often exceeding 110°F.",
+        "nearbyAreas": [
+          "Phoenix",
+          "Mesa",
+          "Scottsdale"
+        ]
+      },
+      {
+        "city": "Phoenix",
+        "slug": "phoenix-az",
+        "state": "AZ",
+        "content": "J. DeMiguel And Sons Plumbing & Heating has been serving the Phoenix, Arizona, metropolitan area for generations. As the largest city in Arizona, Phoenix presents a diverse range of plumbing and HVAC needs, from historic homes in downtown Phoenix to modern developments in the suburbs. Our team is equipped to handle any plumbing or HVAC challenge, providing reliable and professional service to homeowners and businesses throughout Phoenix.\n\nWe understand the importance of keeping your home comfortable and functional, especially during the extreme summer heat that often exceeds 110°F. Whether you need a quick plumbing repair, a new AC installation, or routine maintenance on your heating system, J. DeMiguel And Sons is here to help. We are committed to providing prompt, courteous, and effective service to every customer in Phoenix.\n\nWe offer a full range of plumbing services, including leak detection and repair, drain cleaning, water heater services, and sewer line inspections. Our HVAC services include AC repair, maintenance, and installation.",
+        "localContext": "Phoenix is the largest city in Arizona and experiences extreme summer heat, often exceeding 110°F, demanding reliable cooling systems.",
+        "nearbyAreas": [
+          "Scottsdale",
+          "Tempe",
+          "Glendale"
+        ]
+      },
+      {
+        "city": "Paradise Valley",
+        "slug": "paradise-valley-az",
+        "state": "AZ",
+        "content": "J. DeMiguel And Sons Plumbing & Heating provides expert plumbing and HVAC services to the residents of Paradise Valley, Arizona. Known for its luxury homes and upscale lifestyle, Paradise Valley demands the highest quality service and attention to detail. Our team is experienced in working with high-end plumbing and HVAC systems, ensuring your home remains comfortable and functional year-round, especially during the extreme summer heat that often exceeds 110°F.\n\nWe understand that Paradise Valley homeowners expect nothing but the best. That's why we offer prompt, reliable, and professional service, using only the highest quality materials and workmanship. Whether you need a complex plumbing repair, a high-efficiency AC installation, or routine maintenance on your heating system, J. DeMiguel And Sons is here to help.\n\nOur services include leak detection and repair, drain cleaning, water heater services, and comprehensive HVAC services, including AC repair, maintenance, and installation.",
+        "localContext": "Paradise Valley is known for its luxury homes and experiences extreme summer heat, often exceeding 110°F, requiring high-efficiency cooling systems.",
+        "nearbyAreas": [
+          "Scottsdale",
+          "Phoenix",
+          "Tempe"
+        ]
+      },
+      {
+        "city": "Queen Creek",
+        "slug": "queen-creek-az",
+        "state": "AZ",
+        "content": "J. DeMiguel And Sons Plumbing & Heating is proud to serve the growing community of Queen Creek, Arizona. With its mix of new construction and established neighborhoods, Queen Creek presents a variety of plumbing and HVAC needs. Our team is experienced in working with different types of homes and systems, ensuring we can provide effective and efficient solutions for all your plumbing and HVAC requirements.\n\nWe understand the importance of maintaining a comfortable home environment in Queen Creek, especially during the extreme summer heat that often exceeds 110°F. Whether you need a new AC unit installed, a plumbing leak repaired, or routine maintenance on your heating system, J. DeMiguel And Sons is here to help. We are committed to providing reliable, professional, and courteous service to every customer in Queen Creek.\n\nOur services include drain cleaning, water heater repair and replacement, leak detection, and comprehensive HVAC services, including AC repair, maintenance, and installation.",
+        "localContext": "Queen Creek features a mix of new construction and established neighborhoods and experiences extreme summer heat, often exceeding 110°F.",
+        "nearbyAreas": [
+          "Gilbert",
+          "Chandler",
+          "San Tan Valley"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Maria G.",
+        "rating": 5,
+        "service": "Water Heater Replacement",
+        "text": "Our old water heater finally gave out, and J. DeMiguel and Sons came to the rescue! They were quick, professional, and explained everything clearly. The new water heater works great, and the price was fair. Highly recommend!",
+        "date": "2024-07-15"
+      },
+      {
+        "name": "David S.",
+        "rating": 4,
+        "service": "Drain Cleaning",
+        "text": "Had a stubborn kitchen sink clog that I couldn't clear myself. J. DeMiguel and Sons arrived on time and cleared the drain quickly. The technician was friendly and professional. Would use again.",
+        "date": "2024-08-02"
+      },
+      {
+        "name": "Lisa K.",
+        "rating": 5,
+        "service": "Leak Repair",
+        "text": "Discovered a leak under my bathroom sink and called J. DeMiguel and Sons. They found the source of the leak quickly and repaired it efficiently. Very happy with their service and professionalism.",
+        "date": "2024-09-10"
+      },
+      {
+        "name": "Robert B.",
+        "rating": 5,
+        "service": "Toilet Repair",
+        "text": "Our toilet was constantly running, wasting water. J. DeMiguel and Sons fixed the problem quickly and efficiently. The technician was knowledgeable and courteous. Great service!",
+        "date": "2024-10-05"
+      },
+      {
+        "name": "Susan P.",
+        "rating": 4,
+        "service": "Faucet Installation",
+        "text": "Had a new faucet installed in my kitchen. The technician from J. DeMiguel and Sons did a great job. The installation was clean and professional. Very pleased with the results.",
+        "date": "2024-11-12"
+      },
+      {
+        "name": "Michael T.",
+        "rating": 5,
+        "service": "Gas Line Repair",
+        "text": "I smelled gas near my stove and called J. DeMiguel and Sons immediately. They arrived quickly and found a small leak in the gas line. They repaired it safely and efficiently. I'm so grateful for their prompt and professional service!",
+        "date": "2024-12-01"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Phoenix Plumbing | J. DeMiguel & Sons",
+        "description": "Trusted Phoenix plumbers for repairs, water heaters, drain cleaning, and more. Call today for expert plumbing services!"
+      },
+      "about": {
+        "title": "About Us | J. DeMiguel & Sons Plumbing",
+        "description": "Learn about J. DeMiguel & Sons Plumbing & Heating, a family-owned Phoenix plumbing company with years of experience."
+      },
+      "services": {
+        "title": "Plumbing Services | Phoenix, AZ",
+        "description": "Comprehensive plumbing services in Phoenix, AZ. Leak repair, water heaters, drain cleaning, pipe replacement & more."
+      },
+      "contact": {
+        "title": "Contact Us | J. DeMiguel & Sons Plumbing",
+        "description": "Contact J. DeMiguel & Sons Plumbing & Heating for reliable plumbing services in Phoenix. Get a free quote today!"
+      },
+      "reviews": {
+        "title": "Customer Reviews | J. DeMiguel & Sons",
+        "description": "Read reviews from satisfied customers of J. DeMiguel & Sons Plumbing & Heating in Phoenix, AZ."
+      },
+      "service-areas": {
+        "title": "Service Areas | Phoenix Plumbing",
+        "description": "J. DeMiguel & Sons Plumbing services Phoenix and surrounding areas. Find out if we service your neighborhood!"
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 15,
+      "projectsCompleted": "1200+",
+      "satisfaction": "98%",
+      "teamSize": "25+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "leak-detection-repair": "/images/service-leak-detection-repair.webp",
+      "water-heater-services": "/images/service-water-heater-services.webp",
+      "drain-cleaning-services": "/images/service-drain-cleaning-services.webp",
+      "plumbing-repairs": "/images/service-plumbing-repairs.webp",
+      "pipe-replacement": "/images/service-pipe-replacement.webp",
+      "fixture-installation": "/images/service-fixture-installation.webp",
+      "gas-line-services": "/images/service-gas-line-services.webp"
+    },
+    "servicesResponsive": {
+      "leak-detection-repair": {
+        "src": "/images/service-leak-detection-repair.webp",
+        "srcset": "/images/service-leak-detection-repair-400w.webp 400w, /images/service-leak-detection-repair-800w.webp 800w, /images/service-leak-detection-repair-1200w.webp 1200w, /images/service-leak-detection-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "water-heater-services": {
+        "src": "/images/service-water-heater-services.webp",
+        "srcset": "/images/service-water-heater-services-400w.webp 400w, /images/service-water-heater-services-800w.webp 800w, /images/service-water-heater-services-1200w.webp 1200w, /images/service-water-heater-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drain-cleaning-services": {
+        "src": "/images/service-drain-cleaning-services.webp",
+        "srcset": "/images/service-drain-cleaning-services-400w.webp 400w, /images/service-drain-cleaning-services-800w.webp 800w, /images/service-drain-cleaning-services-1200w.webp 1200w, /images/service-drain-cleaning-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "plumbing-repairs": {
+        "src": "/images/service-plumbing-repairs.webp",
+        "srcset": "/images/service-plumbing-repairs-400w.webp 400w, /images/service-plumbing-repairs-800w.webp 800w, /images/service-plumbing-repairs-1200w.webp 1200w, /images/service-plumbing-repairs.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pipe-replacement": {
+        "src": "/images/service-pipe-replacement.webp",
+        "srcset": "/images/service-pipe-replacement-400w.webp 400w, /images/service-pipe-replacement-800w.webp 800w, /images/service-pipe-replacement-1200w.webp 1200w, /images/service-pipe-replacement.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fixture-installation": {
+        "src": "/images/service-fixture-installation.webp",
+        "srcset": "/images/service-fixture-installation-400w.webp 400w, /images/service-fixture-installation-800w.webp 800w, /images/service-fixture-installation-1200w.webp 1200w, /images/service-fixture-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "gas-line-services": {
+        "src": "/images/service-gas-line-services.webp",
+        "srcset": "/images/service-gas-line-services-400w.webp 400w, /images/service-gas-line-services-800w.webp 800w, /images/service-gas-line-services-1200w.webp 1200w, /images/service-gas-line-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://demo-j-demiguel-and-sons-plumbing-heating.dream-surge.com/sitemap-index.xml
